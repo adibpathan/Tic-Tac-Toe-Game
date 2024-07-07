@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.msg-container{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.hide{
+    display: none;
+}
+
+.msg-container button{
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(91, 47, 127);
+    border-radius: 8px;
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+.msg-container p{
+    color: rgb(126 49 171);
+    font-size: 35px;
+    font-weight: 600;
+    font-family: cursive;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.game{
+    width: 25vw;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.btn{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(52, 28, 66);
+    font-size: 30px;
+    color: white;
+    border-radius: 8px;
+}
+
+#reset-btn{
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(45, 13, 72);
+    border-radius: 8px;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 1280px){
+    .game{
+        width: 30vw;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 1167px){
+    .game{
+        width: 34vw;
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .game{
+        width: 50vw;
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .game{
+        width: 60vw;
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 533px){
+    .game{
+        width: 70vw;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 457px){
+    .game{
+        width: 80vw;
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .game{
+        width: 90vw;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 356px){
+    .game{
+        width: 100vw;
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .game{
+        width: 110vw;
+        height: 40vh;
+    }
+}
+
+
